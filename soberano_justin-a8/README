@@ -1,0 +1,14 @@
+
+How to run:
+    make
+    ./poke
+
+This assignment implements pokemon into the game.
+
+When you start the game, you will be prompted to select a pokemon. Once you have selected your pokemon, you can press [m] to view it in your pokedex.
+
+When you encounter a pokemon, you will see the stats of it. To escape it, press any movement key.
+
+When you encounter a trainer, you will be prompted to view their pokemon by pressing [p], or battle them by pressing [o]. Battling will be implemented in 1.09, however to 'defeat' the trainer you can press escape key while in the battle screen.
+
+Code for this assignment is located in character/pokemon.
