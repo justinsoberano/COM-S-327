@@ -1,0 +1,17 @@
+How to run
+    - make
+    - ./tetris
+
+This is a tetris game written in C++ using ncurses.
+
+The game is played using WASD keys.
+- A and D move the tetrimino left and right
+- W rotates the tetrimino
+- S increases the speed of the tetrimino
+
+The goal of the game is to clear as many lines as possible and get a high score
+before the tetriminos reach the top of the board.
+
+Try and beat my high score of 5600!
+
+You get 100 points for every line you clear.

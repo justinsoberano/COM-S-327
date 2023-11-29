@@ -1,0 +1,12 @@
+
+How to run:
+    make
+    ./poke
+
+This assignment implements battles into the game.
+
+When you encounter a wild pokemon, you most of the options are shown below the map with their key presses.
+
+When you battle wild pokemon, you can capture them, having up to 6 pokemon.
+
+When you encounter a trainer, options are also shows below the map. The battles are turn based with either you or the trainer starting first. A battle ends when you defeat all of the trainer's pokemon or the trainer defeats you.

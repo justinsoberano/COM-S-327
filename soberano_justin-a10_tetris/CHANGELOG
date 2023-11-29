@@ -1,0 +1,29 @@
+November 23rd:
+    - Implemented the creation of the tetris board using ncurses
+    - Added color
+    - Added tetriminos
+
+November 24th:
+    - Added the ability to move the tetriminos
+    - Added the ability to rotate the tetriminos
+    - Added the ability to drop the tetriminos
+
+November 25th:
+    - Fixed the rotation of the tetriminos
+    - Added the ability to clear lines
+    - Added a score counter
+
+November 26th:
+    - Difficulty increases the more blocks are placed
+    - Tetriminos can now be moved for a short time after they have landed
+    - Score displays at the end of the game
+
+November 27th:
+    - Fixed bugs
+    - Added color!
+    - Made it look pretty
+
+November 28th:
+    - Refactored code to make it more readable
+    - Used 'gettimeofday' to make the game run at the same speed on all computers
+        ^ Game ran super slow on Pyrite for some reason without this.
