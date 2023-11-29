@@ -1,0 +1,18 @@
+September 18:
+    - Added Djikstra's Algorithm for NPCs.
+    - Added player type constants for cost of movement.
+
+September 19:
+    - Created a m data map to be used for Djikstra's Algorithm.
+    - Finished Implementation of Djikstra's Algorithm.
+    - Disabled move().
+
+September 20:
+    - Fixed bugs with Djikstra's Algorithm.
+
+September 21: 
+    - Iterate through the dist_map and remove gates and unreachable areas and set them
+      to INT_MAX.
+    
+September 22:
+    - Print the dist_map.

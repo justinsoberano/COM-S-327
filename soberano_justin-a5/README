@@ -1,0 +1,31 @@
+
+How to run:
+- make
+- ./world --<numtrainers>
+            ^ Optional tag, will default to 10 if not provided.
+
+This assignment focuses on enhancing your Pokemon terminal game by adding a user interface with unbuffered I/O.
+
+The PC and NPCs should be able to move around but should not be able to stand on the map exit or use the map exits. The following keys are used for movement:
+
+7 or y: Move PC one cell to the upper left
+8 or k: Move PC one cell up
+9 or u: Move PC one cell to the upper right
+6 or l: Move PC one cell to the right
+3 or n: Move PC one cell to the lower right
+2 or j: Move PC one cell down
+1 or b: Move PC one cell to the lower left
+4 or h: Move PC one cell to the left
+
+Additional Commands
+>: Enter a Pokemart or Pokemon Center if standing on a building 
+5, space, or .: Rest for a turn. NPCs still move
+t: Display a list of trainers on the map with their positions
+up arrow: Scroll up the trainer list
+down arrow: Scroll down the trainer list
+escape: Exit the trainer list or Pokemon Battle interface
+Q: Quit the game
+
+Pokemon Battle Interface
+Triggered when a player moves into a cell with an NPC who has not been defeated. The only command for now is escape, which will mark the NPC as defeated.
+

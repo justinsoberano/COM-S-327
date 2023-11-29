@@ -1,0 +1,23 @@
+October 4th:
+    - NPCs are now randomly placed on the map.
+    - Implemented a priority queue for NPCs to move based on their distance time.
+    - Priority Queue now populates with the NPCs in the map.
+    - removed 'move()' function from assignment 1.02
+
+October 5th: 
+    - Implemented distance maps for Pacer, Wanderer, and Explorer.
+    - Implemented movement behavior for Pacer, Wanderer, and Explorer.
+    - Added Sentry
+    - Created two new map types, seperate from the main map, TerrainType and CharacterType.
+        - TerrainType map allows Wanderer and Explorers to check if they are in valid terrain. 
+          Also now used by Dijkstra's Algorithm for distance map cost for all NPCs.
+        - CharacterType map allows all NPCs to check if their is a NPC at the current location
+          to prevent overlap of characters in a single cell.
+
+October 6th:
+    - Implemented 'usleep(100000)', generating 10 frames per second. 
+    - Added 'player_movement()' function which will be implemented in Assignment 1.05.
+      The function pauses all NPC movement and waits for something to be pressed. If
+      something is pressed, we call the 'djikstra_for_pc' function which recalculates all 
+      the distance maps for the Rival and Hiker.
+    - Implemented '--numtrainers' tag when running program.

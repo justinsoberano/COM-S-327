@@ -1,0 +1,34 @@
+How to run: 
+    ./poke [FILE] | parses files on Pyrite
+    ./poke home [FILE] | parses files on Home directory.
+
+Home directory should be in this path in order for [ ./poke home ] to work.
+$HOME/.poke327/pokedex/pokedex/data/csv/[FILE]
+If it is not in this path, it will ask for a path.
+
+For all commands:
+    ./poke help
+
+All assignment 1.07 files are located in /game/file_parsing
+
+This version of my pokemon game only parses files. 
+To implement functionality of assignment 1.06, uncomment line 3 of poke.cpp.
+
+This program parses multiple CSV files related to Pokemon and their moves, structures the data into C++ structs or classes, and prints the contents to standard output. It is designed to work with a specific database structure and includes error handling for missing files.
+
+Run the program with a single command-line parameter to specify the CSV file to parse. The parameter can be one of the following:
+- pokemon
+- moves
+- pokemon_moves
+- pokemon_species
+- experience
+- type_names
+- pokemon_stats
+- stats
+- pokemon_types
+
+The program will search for the database in the following order:
+/share/cs327
+$HOME/.poke327/
+An optional third location of your choice.
+

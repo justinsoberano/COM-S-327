@@ -1,0 +1,30 @@
+
+How to run:
+- make
+- ./world --<numtrainers>
+            ^ Optional tag, will default to 6 if not provided.
+
+How to use fly:
+- press f and type in format, `x y`
+
+---------------
+In this assignment, we will be adding functionality to our existing game, which was originally developed in C (as of version 1.02). The goal is to port the game to C++ and implement the following features:
+
+Player Movement
+- The player character (PC) can use movement keys to move into gates.
+- Moving into a gate will transition the PC to the neighboring map, placing them in the road square directly abeam of the gate in the neighboring map.
+- For example, moving west into a west gate at (0,10) in map (0,0) will place the PC at (78,10) in map (-1,0).
+- NPCs cannot move into gates.
+- Maintain turn queues per map
+
+Fly Command
+- Implement the ability for the PC to fly.
+- The command 'f' indicates that the player wants to fly.
+- The interface will prompt for X and Y coordinates.
+- Place the PC within the destination map, with placement at your discretion (e.g., on the road).
+- Maintain turn queues and NPC positions while flying.
+
+Porting to C++
+- Rename all C files with a .cpp extension.
+- Update the makefile to compile C++ code and link with the C++ compiler.
+- Change major structs in the game to classes, including map and character structures.s

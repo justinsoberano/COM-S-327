@@ -1,0 +1,22 @@
+
+How to run,
+1. make
+2. ./world --numtrainers (e.x ./world --7)
+                                        ^ This will spawn 7 trainers, not providing a tag
+                                          will default to 10.
+
+Implemented a min-heap priority queue that uses the NPCs distance cost as the value to determine
+which NPC goes first. The map refreshes 10 frames per second, using 'usleep(100000)'.
+
+Hikers and Rivals use the calculated distance maps from 'djikstra_for_pc' 
+and follow the gradient that leads to the player character.
+
+The distance cost maps for Pacers, Wanderers, Explorers, and Sentries are calculated using the 
+'other' costs in assignment 1.03.
+
+- Pacers move back and forth, west and east.
+- Wanderers start moving in a random direction, once they hit an area of land that is not
+  the land that they spawned in, they start moving in a random direction
+- Explorers have the same movement as Wanderer's except they can traverse different terrain types until
+  they hit an invalid terrain type.
+- Sentries dont move, and stay put wherever they are first placed.

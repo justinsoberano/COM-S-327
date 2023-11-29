@@ -1,0 +1,4 @@
+Implemented Djikstra's Algorithm to be used for Hiker and Rival movement cost. 
+The top movement cost map is for the Hiker and the bottom one is for the Rival.
+
+Map generation using 'n w e s f' has been disabled but can be enabled by uncommenting line 548.

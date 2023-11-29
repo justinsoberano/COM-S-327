@@ -1,0 +1,19 @@
+September 4
+    - Implemented 'gen_terrain()' function
+    - Implemented Queue
+    - Initialized Queue with TALL_GRASS, SHORT_GRASS, and WATER
+    - Initialized the map with start points for terrain expansion
+
+September 6
+    - Implemented 'generate_path' function
+
+September 8
+    - Implemented POKEMARTS and POKECENTERS
+    - Added map verification to double check all tiles are filled.
+
+September 10
+    - Added constraints to path generation to prevent 'PATH' from going out of bounds
+    - Added Trees to short grass regions.
+
+
+

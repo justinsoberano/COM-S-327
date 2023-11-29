@@ -1,0 +1,17 @@
+October 19th
+  - Implemented movement using y,k,u,l,n,j,b,h.
+  - Implemented trainer page
+  - Implemented up and down arrow for scrollable trainer page
+  - Implemented > and < when on top of a building.
+
+October 20th
+  - A defeated rival or hiker no longer paths to PC and acts like a pacer.
+  - Implemented trainer battles when a trainer is 1 cell away.
+  - Implemented color
+
+October 21st
+  - Refactored code, for assignment 1.06.
+
+October 22nd
+  - Bug fixing.
+

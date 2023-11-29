@@ -1,0 +1,18 @@
+October 25th
+    - Implemented map movement from north south east and west when going up, down, left, and right.
+
+October 26th
+    - Made char_map part of the world struct
+    - Made all queues part of the world struct
+    - Made all characters part of the world struct.
+        The reason for these changes is to allow movement to be maintained through all gates.
+
+    - Implemented fly using `f`
+
+October 27th
+    - Ported code over to C++!
+    - Changed all major structs and to class types.
+        - All use public variables.
+    
+October 28th
+    - Bug fixing

@@ -1,0 +1,28 @@
+
+October 31st
+    - Complete code structure overhaul.
+        - All big features and functions of the pokemon game are now organized in their own header and C++ files.
+        - This change causes compilation time to run longer, around 3-4 seconds, however runtime is instantaneous.
+    - Renamed main C++ file from 'world' to 'poke'.
+    - Added custom compilation message.
+
+November 1st:
+    - Implemented classes for the CSV files.
+        - pokemon
+        - pokemon_stats
+        - moves
+        - stats
+        - experience
+        - pokemon_species
+        - type_names
+        - pokemon_types
+        - pokemon_moves
+
+November 2nd:
+    - Implemented Pyrite, Home Directory, and Custom Directory implementation.
+    - Added command arguments into the command line.
+    - Added helper_functions header and C++ file. 
+    - Added import_csv_classes header file.
+
+November 4th:
+    - Bug fixing
